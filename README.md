@@ -32,13 +32,13 @@ chat_id will your group id or any user id in that JSON image <br>
 
 <b>Step 8</b>:Start use the below lib functions in all your controller
 <ul>
-<li>$this->db->sendmsg("test")</li>
-<li>$this->db->sendlocation("12.114","72.100")@lat,@long</li>
-<li>$this->db->sendimg("/path/to/img","img caption")@img path,@caption=optional</li>
-<li>$this->db->sendaudio("/path/to/audio","audio caption")@audio path,@caption=optional</li>
-<li>$this->db->senddoc("/path/to/doc","doc caption")@doc path,@caption=optional</li>
-<li>$this->db->sendvenue("12.114","72.100","title","address")@lat,@long,@title,@address</li>
-<li>$this->db->sendcontact("9874651230","first name","last name")@phone,@first_name,@last_name=optional</li>
+<li>$this->telegram_lib->sendmsg("test")</li>
+<li>$this->telegram_lib->sendlocation("12.114","72.100")@lat,@long</li>
+<li>$this->telegram_lib->sendimg("/path/to/img","img caption")@img path,@caption=optional</li>
+<li>$this->telegram_lib->sendaudio("/path/to/audio","audio caption")@audio path,@caption=optional</li>
+<li>$this->telegram_lib->senddoc("/path/to/doc","doc caption")@doc path,@caption=optional</li>
+<li>$this->telegram_lib->sendvenue("12.114","72.100","title","address")@lat,@long,@title,@address</li>
+<li>$this->telegram_lib->sendcontact("9874651230","first name","last name")@phone,@first_name,@last_name=optional</li>
 </ul><br>
 it works!!!!!!<br>
 
